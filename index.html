@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="./assets/css/style.css">    
     </head>
     <body>
+<!--Navbar del sitio, que contiene menu personalizado, que enlaza las distintas partes de la pagina web, para que el usuario pueda desplazarse desde aqui-->
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
             <a class="navbar-brand" href="#">
@@ -41,7 +42,7 @@
         </nav>
 
         <header>
-
+<!--Carrusel que contiene imagenes de paisajes de Chile-->
             <div id="carousel" class="carousel slide carousel-background">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
@@ -75,7 +76,7 @@
             </div>
             
         </header>
-
+<!--Secciones ¿Quienes somos?, la cual contiene texto descriptivo de la empresa/cliente-->
         <section id="quienes" class="bg-black d-none d-sm-none d-md-block">
             <div class="container">
                 <div class="py-5">
@@ -129,7 +130,7 @@
                 </div>
             </div>
         </section>
-
+<!--Seccion "Destacados" que contiene tarjeta con imagenes de localidades destacadas o destinos favoritos de rutas planteadas por cliente-->
         <section id="destacados" class="bg-black">
             <div class="container">
                 <div>
@@ -138,7 +139,7 @@
                 <div>
                     <div class=" row row_destacados">               
 
-                    <div class="col ml5 py-1">
+                    <div class="col ml5 py-1"> <!--la clase col. junto con el margen izq y el padding, configura las tarjetas, para que cambien su disposicion depende del ajuste de la ventana-->
                     <div class="text-center bg-info" style="width: 14rem;">
                         <div class="card card_destacados">
                             <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
@@ -183,7 +184,7 @@
                 </div>
             </div>
         </section>
-
+<!--Seccion con formulario de contacto, para que clientes y visitantes del sitio, puedan dejar sus datos, para que posteriormente sean contactados por empresa-->
         <section id="contacto" class="bg-black py-4">
             <div>
                 <h4 class="text-center py-3">CONTACTO</h4>                    
@@ -207,6 +208,7 @@
                 <button type="submit" class="btn btn-info text-light">Enviar</button>
             </form>
 
+<!--Seccion del footer, donde aparece logo de empresa, y redes sociales de la misma, representada por los iconos correspondiente, y que al clickear sobre ellos, redirige al usuario  a dicha pagina-->
         </section>
 
         <footer id="footer" class="container-fluid bg-info px-3 py-3">
@@ -215,7 +217,7 @@
                     <h5 class="text-light">VIAJES CHILE</h5>
                 </div>
                 <div class="col-6 text-center">
-                    <a href="https://github.com/" class="card-link border-light" data-toggle="tooltip" title="GitHub"><i class="fa-brands fa-square-github fa-2x iconos"></i></a>
+                    <a href="https://github.com/" class="card-link border-light" data-toggle="tooltip" title="GitHub"><i class="fa-brands fa-square-github fa-2x iconos"></i></a> <!--El tooltip instruye al visitante sobre el vinculo que corresponde-->
                     <a href="https://www.linkedin.com/" class="card-link" data-toggle="tooltip" title="Linkedin"><i class="fa-brands fa-linkedin fa-2x iconos"></i></a>
                     <a href="https://twitter.com/Inicio/" class="card-link" data-toggle="tooltip" title="Twitter"><i class="fa-brands fa-square-twitter fa-2x iconos"></i></a>
                     <a href="https://es-la.facebook.com/" class="card-link" data-toggle="tooltip" title="Facebook"><i class="fa-brands fa-square-facebook fa-2x iconos"></i></a>
@@ -223,7 +225,7 @@
             </div>
         </footer>
 
-
+<!--Segmento con los vinculos js: bootstrap y hoja script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
     </body>
